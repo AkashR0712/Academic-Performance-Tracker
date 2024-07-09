@@ -1,46 +1,53 @@
-# Academic-Performance-Tracker
+# Result-Management-Application
+A Result Management System using HTML, CSS, JavaScript , Node and using MVC Model.<br/>
+• Two types of users can login to application by clicking a button on homepage.<br/>
+• Students can enter their roll number and date of birth to view their result.<br/>
+• Teachers can View all records, add new record, edit and delete the records.<br/>
 
-The Result Management System (RMS) is a web application designed to manage and track academic performance efficiently. Built using HTML, CSS, JavaScript, and Node.js, it leverages the MVC (Model-View-Controller) architecture to separate concerns and enhance maintainability. The application supports two types of users: students and teachers, each with distinct functionalities accessible through a user-friendly interface.
+# Setup Guide 
 
-## Features
+## Database 
+1. Signin/up to https://www.mongodb.com/cloud/atlas/register 
+2. Create a cluster and connect it to your application.
+3. Refer to : https://www.section.io/engineering-education/nodejs-mongoosejs-mongodb/
+4. Do edit your password and desired database name in the connection string copied to app.js file.
+  
+## Backend 
+1. Open the project in Visual Studio Code.
+2. Go to toolbar --> terminal --> Open new terminal.
+3. Run "npm install" and "npm install -g nodemon" .
+4. Now to run the project --> Run "nodemon app.js" on terminal.
+  
+## Frontend
+1. Open URL "https://localhost:3000" on a browser.
 
-### User Authentication
+# Screen-Shots 
 
-- **Students**: Students can log in by entering their roll number and date of birth to view their individual results.
-- **Teachers**: Teachers can log in to view, add, edit, and delete student records.
+## Project Structure
 
-### Student Dashboard
+<img width="267" alt="Project structure" src="https://user-images.githubusercontent.com/63288542/149562789-4f73ff63-f0cb-49ca-98a3-a24d1d3480dd.PNG">
 
-- Students can see a detailed view of their academic results, including grades for each subject.
+## HomePage 
 
-### Teacher Dashboard
+<img width="400" alt="homepage" src="https://user-images.githubusercontent.com/63288542/149562845-9e15edce-4292-4ae7-9122-eb7c0e0da909.PNG">
 
-- Teachers have access to a comprehensive list of all student records.
-- Teachers can perform CRUD (Create, Read, Update, Delete) operations on student records, allowing for efficient result management.
+## Teacher Login 
 
-## Technology Stack
+<img width="400" alt="teacher login" src="https://user-images.githubusercontent.com/63288542/149562922-5e7065ea-1fc1-44fa-bc45-503099bb4635.PNG">
 
-### Frontend
+## Teacher dashboard
 
-- **HTML**: For structuring the web pages.
-- **CSS**: For styling the web pages.
-- **JavaScript**: For client-side scripting to enhance interactivity.
+<img width="400" alt="teacher dashboard" src="https://user-images.githubusercontent.com/63288542/149563436-2ea54c38-32d7-44a7-85a6-d53a031bb0b9.PNG">
 
-### Backend
 
-- **Node.js**: For server-side scripting.
-- **Express**: As the web application framework.
-- **MongoDB**: As the database for storing user and result data.
-- **Mongoose**: For object data modeling (ODM) with MongoDB.
-- **EJS (Embedded JavaScript)**: For rendering dynamic content on the web pages.
+## View All Students Result
 
-## Architecture
+<img width="400" alt="view all students" src="https://user-images.githubusercontent.com/63288542/149562977-8e2d30db-ef9e-464d-83c5-250b09b6ded4.PNG">
 
-### Model-View-Controller (MVC)
+## Add student result
 
-- **Model**: Represents the data structure (e.g., student and teacher schemas).
-- **View**: Represents the UI components (e.g., HTML and EJS templates).
-- **Controller**: Handles the logic and user input, interacts with the Model, and renders the appropriate View.
+<img width="400" alt="add student" src="https://user-images.githubusercontent.com/63288542/149562992-e2ca4332-18db-4a95-9add-b3460e8b2521.PNG">
 
-## Directory Structure
+## Student Login
 
+<img width="400" alt="student login" src="https://user-images.githubusercontent.com/63288542/149563029-e6640265-693d-49b5-af0f-5a4949fadb71.PNG">
