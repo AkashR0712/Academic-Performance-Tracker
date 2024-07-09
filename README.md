@@ -1,6 +1,6 @@
 # Academic-Performance-Tracker
 
-The Result Management System (RMS) is a web application designed to manage and track academic performance efficiently. Built using HTML, CSS, JavaScript, and Node.js, it leverages the MVC (Model-View-Controller) architecture to separate concerns and enhance maintainability. The application supports two types of users: students and teachers, each with distinct functionalities accessible through a user-friendly interface.
+The Academic-Performance-Tracker is a web application designed to manage and track academic performance efficiently. Built using HTML, CSS, JavaScript, and Node.js, it leverages the MVC (Model-View-Controller) architecture to separate concerns and enhance maintainability. The application supports two types of users: students and teachers, each with distinct functionalities accessible through a user-friendly interface.
 
 ## Features
 
