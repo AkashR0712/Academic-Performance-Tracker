@@ -29,7 +29,7 @@ The Academic-Performance-Tracker is a web application designed to manage and tra
 ### Backend
 
 - **Node.js**: For server-side scripting.
-- **Express**: As the web application framework.
+- **Express**: As the web application Middle-ware framework.
 - **MongoDB**: As the database for storing user and result data.
 - **Mongoose**: For object data modeling (ODM) with MongoDB.
 - **EJS (Embedded JavaScript)**: For rendering dynamic content on the web pages.
